@@ -1,5 +1,5 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/MovieCommnunityFront',
+    publicPath: '/MoyaMoya',
     outputDir: 'docs'
 }
