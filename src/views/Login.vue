@@ -94,7 +94,7 @@ export default {
           // nextPage가 있다면 보내주기
           if (this.nextPage){
             if (this.nextparams){
-              this.$router.push(`/#/${this.nextPage}/${this.nextparams}`)
+              this.$router.push(`/${this.nextPage}/${this.nextparams}`)
               this.setNextPage('')
             }else {
               this.$router.push({ name: this.nextPage ,})
