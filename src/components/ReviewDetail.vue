@@ -39,7 +39,7 @@
 
 			<!-- 좋아요 및 버튼부분 -->
 			<div class="atc_buttons clearfix ">
-				<span class="atc_vote " >
+				<span class="atc_vote " title="좋아요">
 						<button class="bt_vote vote_area " type="button">
 							   <VueStar animate="animate__animated animate__jackInTheBox" color="#F05654" :check="like_users | checkChecked(login_user.id)" >
     								<i slot="icon" class="fa fa-heart " @click="likeusers"></i>
@@ -47,7 +47,7 @@
               <span class="voted_count text_en">{{like_users.length }}</span>
             </button>
 				</span>
-				<span class="atc_vote">
+				<span class="atc_vote" title="재밌어요">
 						<button class="bt_vote vote_area" type="button">
 							<VueStar animate="animate__animated animate__zoomIn" color="#F05654" :check="funny_users | checkChecked(login_user.id)" >
 								<i slot="icon" class="far fa-grin-hearts" ref="funnyusers"  @click="funnyusers"></i>
@@ -56,7 +56,7 @@
 						</button>
 
 				</span>
-				<span class="atc_vote">
+				<span class="atc_vote" title="도움되요">
 						<button class="bt_vote vote_area" type="button">
 							<VueStar animate="animate__animated animate__rotateIn" color="#F05654" :check="helpful_users | checkChecked(login_user.id)" >
 									<i slot="icon" class="fas fa-award" @click="helpfulusers"></i>
