@@ -111,7 +111,7 @@ export default {
   flex-direction : column;
   justify-content: flex-end;
   text-align: center;
-  transition: 1s;
+  transition: 0.4s;
   padding-bottom : 50px;
 }
 
@@ -125,7 +125,7 @@ export default {
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
-  transition: 0.5s;
+  transition: 0.4s;
   mix-blend-mode : exclusion;
 }
 .contentBx:hover h2{
@@ -142,7 +142,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 8px 20px;
-  transition: 0.5s;
+  transition: 0.4s;
   opacity: 0;
   visibility: hidden;
 }
@@ -151,14 +151,14 @@ export default {
   /* opacity: 1; */
   opacity: 1;
   visibility: visible;
-  transition-delay: 0.6s;
+  transition-delay: 0.5s;
 }
 .contentBx:hover .color
 {
   /* opacity: 1; */
   opacity: 1;
   visibility: visible;
-  transition-delay: 0.5s;
+  transition-delay: 0.4s;
 }
 .contentBx .size h3,
 .contentBx .color h3
@@ -196,12 +196,12 @@ export default {
   margin-right: auto;
   opacity: 0;
   transform: translateY(50px);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 .contentBx:hover a
 {
   opacity: 1;
   transform: translateY(0px);
-  transition-delay: 0.75s;
+  transition-delay: 0.5s;
 }
 </style>
