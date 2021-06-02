@@ -81,6 +81,8 @@ export default {
 
 <style>
 
+
+
 .swiper-container {
   background: #262626;
   width: 100%;

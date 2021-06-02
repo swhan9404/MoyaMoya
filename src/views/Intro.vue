@@ -40,6 +40,9 @@ window.addEventListener("load", function(){
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+#body {
+ overflow: hidden;  
+}
 
 .wrap,
 .box {
