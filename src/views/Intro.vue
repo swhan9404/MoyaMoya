@@ -51,7 +51,8 @@ window.addEventListener("load", function(){
   display: flex;          /*this*/
   justify-content: center;/*this*/
   align-items: center;    /*this*/
-  
+  overflow: hidden;  
+  cursor: pointer;
 }
 
 .box {
@@ -88,5 +89,6 @@ window.addEventListener("load", function(){
   top: -150px;
   left: -150px;
   transform: translate(var(--x),var(--y));  /*js에서 조작될 예정*/
+  
 }
 </style>

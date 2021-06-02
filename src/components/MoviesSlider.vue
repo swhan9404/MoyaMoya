@@ -112,10 +112,7 @@ export default {
   transition: 1s;
   padding-bottom : 50px;
 }
-.contentBx:hover
-{
-  opacity :0.6;
-}
+
 
 .contentBx h2
 {
@@ -131,7 +128,7 @@ export default {
 }
 .contentBx:hover h2{
   top: 55%;
-  mix-blend-mode : exclusion;
+  mix-blend-mode: difference;
 }
 
 
